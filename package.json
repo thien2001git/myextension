@@ -9,13 +9,32 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:extension.openMyExtension",
+    "onCommand:extension.useMyExtension"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "list-files",
         "title": "list-files"
+      },
+      {
+        "command": "upper-case",
+        "title": "upper-case"
+      },
+      {
+        "command": "lower-case",
+        "title": "lower-case"
+      },
+      {
+        "command": "remove-tones",
+        "title": "remove-tones"
+      },
+      {
+        "command": "to-const",
+        "title": "to-const"
       }
     ]
   },
