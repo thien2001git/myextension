@@ -4,6 +4,7 @@ import * as lowerCase from './lowerCase';
 import * as listFiles from './listFiles';
 import * as removeVietnameseTones from './removeVietnameseTones';
 import * as toContant from './toContant';
+import * as toVariable from './toVariable';
 
 
 export function activate(context: vscode.ExtensionContext) {
@@ -14,6 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(lowerCase.disposable);
 	context.subscriptions.push(removeVietnameseTones.disposable);
 	context.subscriptions.push(toContant.disposable);
+	context.subscriptions.push(toVariable.disposable);
 }
 
 // This method is called when your extension is deactivated

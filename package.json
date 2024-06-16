@@ -35,6 +35,10 @@
       {
         "command": "to-const",
         "title": "to-const"
+      },
+      {
+        "command": "to-variable",
+        "title": "to-variable"
       }
     ]
   },
